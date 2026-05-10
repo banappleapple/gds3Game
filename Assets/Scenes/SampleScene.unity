@@ -541,6 +541,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5941041412537579339, guid: b99dc6c2c0a94404da18cff9127707cd, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1172751058}
+    - target: {fileID: 5941041412537579339, guid: b99dc6c2c0a94404da18cff9127707cd, type: 3}
       propertyPath: toFollow
       value: 
       objectReference: {fileID: 1172751053}
@@ -585,7 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5869dc5f74dba41800a2dae804e7db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fishmovedestination
-  changeTime: 7
+  changeTime: 5
 --- !u!65 &1172751055
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ public class ClickOnObject : MonoBehaviour
     {
         Debug.Log("ME");
         this.transform.position = new Vector3(UnityEngine.Random.Range(-4, 4), UnityEngine.Random.Range(-4, 4), 0);
-        changeTime = UnityEngine.Random.Range(3.0f, 10.0f);
+        changeTime = UnityEngine.Random.Range(1.0f, 6.0f);
     }
     
 
