@@ -12,6 +12,7 @@ public class input : MonoBehaviour
     public class ClickOnArgs : EventArgs
     {
         public GameObject clickedOnObject = null;
+        public Vector3 clickPosition = Vector3.zero;
     }
 
     void Start()
@@ -36,6 +37,7 @@ public class input : MonoBehaviour
             if (Physics.Raycast(Camera.main.ScreenPointToRay(mousePosition.ReadValue<Vector2>()), out hit))
             {
                 clickArgs.clickedOnObject = hit.collider.gameObject;
+                clickArgs.clickPosition = hit.point;
             }
 
             OnClickEvent?.Invoke(this, clickArgs);
