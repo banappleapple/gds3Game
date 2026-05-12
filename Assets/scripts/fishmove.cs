@@ -10,7 +10,7 @@ public class fishmove : MonoBehaviour
     public Transform target;
 
     
-    private float fTwo = 0;
+    //private float fTwo = 0;
     //private float fThree = -90;
 
 
@@ -36,12 +36,12 @@ public class fishmove : MonoBehaviour
         //faces towards target
         if (targetx > this.transform.position.x)
         {
-            fTwo = 0;
+            //fTwo = 0;
             transform.eulerAngles = new Vector3(0, 0, -90);
         }
         else if (targetx < this.transform.position.x)
         {
-            fTwo = 180;
+            //fTwo = 180;
             transform.eulerAngles = new Vector3(0, 180, -90);
         }
         else if (targetx == this.transform.position.x)

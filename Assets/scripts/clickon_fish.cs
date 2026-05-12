@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class clickon_fish : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //raycast onto fish, if clicked, increase fov with a lerp. 
+    //camera follows the fishs transform
     void Start()
     {
         

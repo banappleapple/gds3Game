@@ -1,6 +1,6 @@
 using UnityEngine;
 using System;
-public class ClickOnObject : MonoBehaviour
+public class fishmovedestination : MonoBehaviour
 {
     private float changeTime = 7.0f;
     public float howLongmin = 1.0f;
@@ -21,7 +21,10 @@ public class ClickOnObject : MonoBehaviour
     void timerEnded()
     {
         
-        this.transform.position = new Vector3(UnityEngine.Random.Range(-changeDistance, changeDistance), UnityEngine.Random.Range(-changeDistance, changeDistance), 0);
+        this.transform.position += new Vector3(UnityEngine.Random.Range(-changeDistance, changeDistance), 
+                                                UnityEngine.Random.Range(-changeDistance, changeDistance), 
+                                                UnityEngine.Random.Range(-0, 0));
+        
         changeTime = UnityEngine.Random.Range(howLongmin, howLongmax);
     }
     
