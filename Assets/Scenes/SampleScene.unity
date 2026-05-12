@@ -623,7 +623,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5869dc5f74dba41800a2dae804e7db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fishmovedestination
-  changeTime: 5
+  howLongmin: 1
+  howLongmax: 7
+  changeDistance: 4
 --- !u!65 &1172751055
 BoxCollider:
   m_ObjectHideFlags: 0
