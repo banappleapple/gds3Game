@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: b180282691aa9974ca5b24f3bdc8853c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 995ab6299b04552469618fcccc95844c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,4 +104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09ac4b06c6c71f744b562a2380054f5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fishmove
-  destination: {fileID: 0}
+  toFollow: {fileID: 0}
+  speed: 0
+  target: {fileID: 0}
