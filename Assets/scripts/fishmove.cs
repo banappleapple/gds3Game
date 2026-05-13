@@ -37,12 +37,12 @@ public class fishmove : MonoBehaviour
         if (targetx > this.transform.position.x)
         {
             //fTwo = 0;
-            transform.eulerAngles = new Vector3(0, 0, -90);
+            transform.eulerAngles = new Vector3(0, 180, 0);
         }
         else if (targetx < this.transform.position.x)
         {
             //fTwo = 180;
-            transform.eulerAngles = new Vector3(0, 180, -90);
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else if (targetx == this.transform.position.x)
         {
