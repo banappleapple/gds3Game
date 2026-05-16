@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47be9dbeabce5fc438a5502eefed0af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::spritefacecamera
-  update: 1
+  update: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +374,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.93, y: 1, z: -12.36}
+  m_LocalPosition: {x: 4.93, y: 74.78, z: -12.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -639,6 +639,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8223460960068668314, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -706,6 +710,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2759434954325290181, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2967482828390691020, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
       propertyPath: howLongmax
       value: 2
@@ -842,7 +850,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813323985}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -993,7 +1001,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869924918}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47be9dbeabce5fc438a5502eefed0af7, type: 3}
   m_Name: 
@@ -1061,6 +1069,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 966727853717276882, guid: 0b38ff669a2c540468a375ca28fa6ec3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682412979229685874, guid: 0b38ff669a2c540468a375ca28fa6ec3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1131,7 +1143,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969682032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1252,6 +1264,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4218776623986824904, guid: fcee90d8db8aec5429619c0dde2a5d68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4763767653361811513, guid: fcee90d8db8aec5429619c0dde2a5d68, type: 3}
       propertyPath: m_Name
       value: sea angel 1
@@ -1269,6 +1285,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7867048771695887511, guid: 5214c59bc5e27c14bbf5b3b6385b8c4c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3244226770352687587, guid: 5214c59bc5e27c14bbf5b3b6385b8c4c, type: 3}
       propertyPath: m_Name
       value: hadal amphipods 2
@@ -1452,6 +1472,10 @@ PrefabInstance:
       propertyPath: update
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1033056372471848287, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -1478,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1486,7 +1510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1498,7 +1522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1511,6 +1535,14 @@ PrefabInstance:
     - target: {fileID: 4391253810638665716, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_Name
       value: dumbo octopus
+      objectReference: {fileID: 0}
+    - target: {fileID: 8152662301141418446, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8152662301141418446, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
+      propertyPath: m_FlipY
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1590,7 +1622,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172751053}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1711,6 +1743,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4218776623986824904, guid: fcee90d8db8aec5429619c0dde2a5d68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4763767653361811513, guid: fcee90d8db8aec5429619c0dde2a5d68, type: 3}
       propertyPath: m_Name
       value: sea angel 3
@@ -1738,6 +1774,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7867048771695887511, guid: 5214c59bc5e27c14bbf5b3b6385b8c4c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3244226770352687587, guid: 5214c59bc5e27c14bbf5b3b6385b8c4c, type: 3}
       propertyPath: m_Name
       value: hadal amphipods 1
@@ -1865,6 +1905,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4218776623986824904, guid: fcee90d8db8aec5429619c0dde2a5d68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4763767653361811513, guid: fcee90d8db8aec5429619c0dde2a5d68, type: 3}
       propertyPath: m_Name
       value: sea angel 2
@@ -1882,6 +1926,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7867048771695887511, guid: 5214c59bc5e27c14bbf5b3b6385b8c4c, type: 3}
+      propertyPath: update
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7867048771695887511, guid: 5214c59bc5e27c14bbf5b3b6385b8c4c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3244226770352687587, guid: 5214c59bc5e27c14bbf5b3b6385b8c4c, type: 3}
       propertyPath: m_Name
       value: hadal amphipods 3
@@ -2011,6 +2063,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8223460960068668314, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2079,7 +2135,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753659713}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2152,6 +2208,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2759434954325290181, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811254782049707353, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.98
@@ -2281,6 +2341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: anglerfish
       objectReference: {fileID: 0}
+    - target: {fileID: 7994721693869293132, guid: 592b521e17e5d1b4581fba50cd9120ea, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2331,6 +2395,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2759434954325290181, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811254782049707353, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.98
@@ -2463,6 +2531,10 @@ PrefabInstance:
     - target: {fileID: 6078495901165375693, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8223460960068668314, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
