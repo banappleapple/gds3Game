@@ -5,10 +5,10 @@ public class stayintank : MonoBehaviour
 {
     public float topOfZone;
     public float bottomOfZone;
-    private float leftMost = -19;
-    private float rightMost = 19;
-    private float top = 219; 
-    private float bottom = -194;
+    private float leftMost = -15;
+    private float rightMost = 15;
+    private float top = 215; 
+    private float bottom = -190;
     void Start()
     {
         
