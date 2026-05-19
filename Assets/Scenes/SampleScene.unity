@@ -478,8 +478,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 17.06, y: 14.3, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 13.8, y: 10.7, z: 1}
+  m_Center: {x: 0, y: 0, z: -1}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,6 +850,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6645828634566559594, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8223460960068668314, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1124,6 +1128,10 @@ PrefabInstance:
       propertyPath: changeDistance
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3156626281219730611, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811254782049707353, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.98
@@ -1256,8 +1264,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 16.88, y: 13.7, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 13.9, y: 9.7, z: 1}
+  m_Center: {x: 0, y: 0, z: -1}
 --- !u!114 &779208616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,7 +1333,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1688,7 +1696,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2374,7 +2382,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2892,6 +2900,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6645828634566559594, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8223460960068668314, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2957,7 +2969,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3193,6 +3205,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2759434954325290181, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156626281219730611, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -3484,8 +3500,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 16.76, y: 13.6, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 13.79, y: 8.32, z: 1}
+  m_Center: {x: 0, y: 0, z: -1}
 --- !u!114 &2134255013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3509,6 +3525,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2759434954325290181, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156626281219730611, guid: d4e54d9581c8ecf4eacb400210d555d0, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -3648,6 +3668,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6645828634566559594, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8223460960068668314, guid: 8a1c1e1021dbc5c49b0ee5a041c9590c, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3664,8 +3688,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 410087041}
+  - {fileID: 330585546}
   - {fileID: 832575519}
   - {fileID: 2114214816}
   - {fileID: 591449664}
