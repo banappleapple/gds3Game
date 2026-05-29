@@ -44,11 +44,12 @@ Material:
     - _CausticsMovement: 5
     - _CausticsPower: 1.14
     - _CausticsScale: 20.92
-    - _RefractionAmount: 0.0002
+    - _RefractionAmount: 0.0003
     m_Colors:
-    - _CausticsColour: {r: 0.0015550739, g: 0.0018658615, b: 0.005957995, a: 1}
+    - White: {r: 1, g: 1, b: 1, a: 1}
+    - _CausticsColour: {r: 0.0003566138, g: 0.0003566138, b: 0.0022235943, a: 1}
     - _CausticsSpeed: {r: 0.08, g: 0.002, b: 0, a: 0}
-    - _WaterColour: {r: 0.2583586, g: 0.29561394, b: 0.49792755, a: 0}
+    - _WaterColour: {r: 0.16045637, g: 0.21477067, b: 0.38364768, a: 0}
     - _WaterOffset: {r: 0, g: 0, b: 0, a: 0}
     - _WaterTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
