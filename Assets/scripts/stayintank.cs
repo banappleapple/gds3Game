@@ -3,6 +3,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class stayintank : MonoBehaviour
 {
+    //makes the fish not leave the background
     public float topOfZone;
     public float bottomOfZone;
     private float leftMost = -15;

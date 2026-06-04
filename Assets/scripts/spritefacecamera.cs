@@ -4,6 +4,7 @@ public class spritefacecamera : MonoBehaviour
 {
     //from henry thank you henry 
     // makes the sprites look at camera to avoid clipping issues 
+    //ok makes the game bug out so left out for now
     public bool update = false; 
     void Start()
     {

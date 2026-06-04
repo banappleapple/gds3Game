@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 using static input;
 public class popUpOnClick : MonoBehaviour
 {
-
+    //animates the info box on and off on click of a fish
     InputAction mouseClick;
     public GameObject fishInstance;
     private GameObject clickedOnObject = null;

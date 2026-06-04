@@ -21,6 +21,7 @@ public class scroll : MonoBehaviour
     {
         clickedPosition = args.clickPosition;
         isClicking = true;
+        //either here the sound goes
     }
 
     void OnRelease()
@@ -37,11 +38,22 @@ public class scroll : MonoBehaviour
             if (Physics.Raycast(Camera.main.ScreenPointToRay(mousePosition.ReadValue<Vector2>()), out hit))
             {
                 currentWorldPosition = hit.point;
+                //or here the sound goes
             }
 
             Debug.Log(clickedPosition.y - currentWorldPosition.y);
 
             Camera.main.transform.position += Vector3.up * (clickedPosition.y - currentWorldPosition.y);
+
+            //clamps the camera 
+            Camera.main.transform.position = new Vector3(
+                    Mathf.Clamp(Camera.main.transform.position.x, 0, 1),
+                    Mathf.Clamp(Camera.main.transform.position.y, -184, 203),
+                    Mathf.Clamp(Camera.main.transform.position.z, -109, 110)
+
+                );
+            
+            
             if (mouseClick.WasReleasedThisFrame())
             {
                 OnRelease();
