@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: a1cbc4dc9f8c88a47966916400b842f9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fishInstance: {instanceID: 0}
+  - panelAnimator: {instanceID: 0}
+  - tapSoundEffect: {fileID: 7093066693797906869, guid: 564d6192c2e603541b1eddcf4e9da04a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

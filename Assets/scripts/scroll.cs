@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 using static input;
 // thanks to max!
 public class scroll : MonoBehaviour
@@ -7,8 +8,15 @@ public class scroll : MonoBehaviour
     InputAction mouseClick, mousePosition; 
     Vector3 currentWorldPosition, clickedPosition;
     bool isClicking = false;
-
+  //public AudioSource scrollSoundEffect;
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+public void Awake() 
+   {
+// scrollSoundEffect = GetComponent<AudioSource>();
+   }
+    
+    
     void Start()
     {
         input.OnClickEvent += OnClick;
@@ -21,7 +29,9 @@ public class scroll : MonoBehaviour
     {
         clickedPosition = args.clickPosition;
         isClicking = true;
-        //either here the sound goes
+      // scrollSoundEffect.Play();
+
+        
     }
 
     void OnRelease()

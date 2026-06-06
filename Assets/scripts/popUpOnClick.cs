@@ -11,6 +11,12 @@ public class popUpOnClick : MonoBehaviour
     private string clickedBooleanName = "clicked";
     private bool isVisible = false;
     bool isClicking = false;
+//    public AudioSource tapSoundEffect;
+
+  //  public void Awake()
+  //  {
+ //   tapSoundEffect = GetComponent<AudioSource>();
+  //  }
 
     void Start()
     {
@@ -23,6 +29,7 @@ public class popUpOnClick : MonoBehaviour
     {
         isClicking = true;
         clickedOnObject = args.clickedOnObject;
+    //    tapSoundEffect.Play();
         if (isVisible == false && clickedOnObject == fishInstance)
         {
             panelAnimator.SetBool(clickedBooleanName, true);
