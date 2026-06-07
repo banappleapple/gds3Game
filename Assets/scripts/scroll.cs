@@ -58,7 +58,7 @@ public void Awake()
             //clamps the camera 
             Camera.main.transform.position = new Vector3(
                     Mathf.Clamp(Camera.main.transform.position.x, 0, 1),
-                    Mathf.Clamp(Camera.main.transform.position.y, -184, 203),
+                    Mathf.Clamp(Camera.main.transform.position.y, -163, 203),
                     Mathf.Clamp(Camera.main.transform.position.z, -109, 110)
 
                 );

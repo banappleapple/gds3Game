@@ -236,7 +236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 166.15002, y: -132.95}
+  m_AnchoredPosition: {x: 166.15002, y: -132.94995}
   m_SizeDelta: {x: -534.10004, y: -296.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &44447094
@@ -820,7 +820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 166.15002, y: -132.95}
+  m_AnchoredPosition: {x: 166.15002, y: -132.94995}
   m_SizeDelta: {x: -534.10004, y: -296.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &305032247
@@ -1444,7 +1444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 166.15002, y: -132.95}
+  m_AnchoredPosition: {x: 166.15002, y: -132.94995}
   m_SizeDelta: {x: -534.10004, y: -296.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &444215616
@@ -1617,7 +1617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 166.15002, y: -132.95}
+  m_AnchoredPosition: {x: 166.15002, y: -132.94995}
   m_SizeDelta: {x: -534.10004, y: -296.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &455085709
@@ -1733,7 +1733,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.318
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1748,8 +1748,8 @@ Canvas:
   m_GameObject: {fileID: 494899719}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 330585545}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1758,7 +1758,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2109,7 +2109,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.318
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2124,8 +2124,8 @@ Canvas:
   m_GameObject: {fileID: 573518359}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 330585545}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2134,7 +2134,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2396,8 +2396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 166.15002, y: -132.95}
-  m_SizeDelta: {x: -534.10004, y: -296.1}
+  m_AnchoredPosition: {x: 191.03003, y: -132.94995}
+  m_SizeDelta: {x: -484.34015, y: -296.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &736655526
 Animator:
@@ -2512,7 +2512,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.318
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2527,8 +2527,8 @@ Canvas:
   m_GameObject: {fileID: 764518411}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 330585545}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3603,7 +3603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stayintank
   topOfZone: -122
-  bottomOfZone: -192
+  bottomOfZone: -180
 --- !u!1 &1054345788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3657,7 +3657,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.318
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -3672,8 +3672,8 @@ Canvas:
   m_GameObject: {fileID: 1054345788}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 330585545}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3682,7 +3682,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -3752,7 +3752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -34.880337
+      value: -64
       objectReference: {fileID: 0}
     - target: {fileID: 3247748967646401873, guid: b204e6a860d81f5428f153c5dfb91441, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4017,7 +4017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stayintank
   topOfZone: -122
-  bottomOfZone: -192
+  bottomOfZone: -180
 --- !u!1 &1141158800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4055,7 +4055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 166.15002, y: -132.95}
+  m_AnchoredPosition: {x: 166.15002, y: -132.94995}
   m_SizeDelta: {x: -534.10004, y: -296.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1141158802
@@ -4542,7 +4542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stayintank
   topOfZone: -122
-  bottomOfZone: -192
+  bottomOfZone: -180
 --- !u!1 &1402083843
 GameObject:
   m_ObjectHideFlags: 0
@@ -5783,7 +5783,7 @@ Transform:
   m_GameObject: {fileID: 1705191341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.078, y: 64.4, z: 14}
+  m_LocalPosition: {x: -0.078, y: 10.3, z: 14}
   m_LocalScale: {x: -38.83418, y: -415.76797, z: -42.28}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5959,7 +5959,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.318
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -5974,8 +5974,8 @@ Canvas:
   m_GameObject: {fileID: 1722510084}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 330585545}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -5984,7 +5984,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -6061,7 +6061,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.318
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -6076,8 +6076,8 @@ Canvas:
   m_GameObject: {fileID: 1744163622}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 330585545}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -6086,7 +6086,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -6163,7 +6163,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.318
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -6178,8 +6178,8 @@ Canvas:
   m_GameObject: {fileID: 1751723480}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 330585545}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -6188,7 +6188,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -6614,7 +6614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 166.15002, y: -132.95}
+  m_AnchoredPosition: {x: 166.15002, y: -132.94995}
   m_SizeDelta: {x: -534.10004, y: -296.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1776171033
@@ -6743,7 +6743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 633259636605096414, guid: 592b521e17e5d1b4581fba50cd9120ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 78.59901
+      value: 50.7
       objectReference: {fileID: 0}
     - target: {fileID: 633259636605096414, guid: 592b521e17e5d1b4581fba50cd9120ea, type: 3}
       propertyPath: m_LocalPosition.z
